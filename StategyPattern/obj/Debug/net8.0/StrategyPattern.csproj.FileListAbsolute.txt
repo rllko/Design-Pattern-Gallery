@@ -1,0 +1,14 @@
+C:\Users\ricar\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net8.0\StrategyPattern.exe
+C:\Users\ricar\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net8.0\StrategyPattern.deps.json
+C:\Users\ricar\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net8.0\StrategyPattern.runtimeconfig.json
+C:\Users\ricar\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net8.0\StrategyPattern.dll
+C:\Users\ricar\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net8.0\StrategyPattern.pdb
+C:\Users\ricar\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\StrategyPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricar\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\StrategyPattern.AssemblyInfoInputs.cache
+C:\Users\ricar\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\StrategyPattern.AssemblyInfo.cs
+C:\Users\ricar\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\StrategyPattern.csproj.CoreCompileInputs.cache
+C:\Users\ricar\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\StrategyPattern.dll
+C:\Users\ricar\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\refint\StrategyPattern.dll
+C:\Users\ricar\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\StrategyPattern.pdb
+C:\Users\ricar\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\StrategyPattern.genruntimeconfig.cache
+C:\Users\ricar\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ref\StrategyPattern.dll
