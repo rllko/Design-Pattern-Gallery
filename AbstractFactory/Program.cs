@@ -7,13 +7,12 @@ using AbstractFactory;
 using AbstractFactory.TvChannels;
 using AbstractFactory.TVShows;
 
-//ITvChannelFactory NickelodeonFactory = new NickelodeonFactory();
-//ITVChannel Channel = NickelodeonFactory.CreateChannel();
-//ITVShow FavoriteShow = NickelodeonFactory.CreateShow();
-Channel Channel = Channel.CartoonNetwork;
+// in a normal case scenario, an enum should be used, but i removed it to avoid having that dependency
+IAmazingShowProvider ContentProvider = AmazingShowProvider.CreateTVChannel("cartoon network");
 
-ITVChannel FavoriteChannel = AmazingShowProvider.CreateChannel(Channel);
-ITVShow FavoriteShow = AmazingShowProvider.CreateShow(Channel);
+
+ITVChannel FavoriteChannel = ContentProvider.CreateChannel();
+ITVShow FavoriteShow = ContentProvider.CreateShow();
 
 Console.WriteLine($"My favorite show on {FavoriteChannel.getChannelName()} is {FavoriteShow.getFavoriteShowName()} that plays at");
 
