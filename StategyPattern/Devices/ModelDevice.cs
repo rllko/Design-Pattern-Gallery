@@ -1,4 +1,6 @@
-﻿namespace StrategyPattern.Devices;
+﻿using StrategyPattern.Behaviors.QuackBehavior;
+
+namespace StrategyPattern.Devices;
 
 internal abstract class ModelDevice
 {

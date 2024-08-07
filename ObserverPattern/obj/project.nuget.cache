@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ywDi/drSVlWDNO5+P0iHqCFZMnYInYhhFK/qMWgvkye+lATSGFJECbHSmWD2cf0Bis795/lgtP90dKCrqzG8Xg==",
+  "dgSpecHash": "//FvjwiwJgM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\FactoryPatternGallery\\ObserverPattern\\Observer Pattern.csproj",
+  "projectFilePath": "C:\\Users\\ricar\\Documents\\GitHub\\Design-Pattern-Gallery\\ObserverPattern\\Observer Pattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

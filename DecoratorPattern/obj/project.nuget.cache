@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sNdvP1elIp/3L8MusoWrvzm37+XH9WuJzXMR+kmSmcm7G5V3gz2Mi3lPHz+6llikQm5sv6WgdxNkv/hGeEyCqQ==",
+  "dgSpecHash": "YY5kZz4mL7k=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\FactoryPatternGallery\\DecoratorPattern\\Decorator Pattern.csproj",
+  "projectFilePath": "C:\\Users\\ricar\\Documents\\GitHub\\Design-Pattern-Gallery\\DecoratorPattern\\Decorator Pattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

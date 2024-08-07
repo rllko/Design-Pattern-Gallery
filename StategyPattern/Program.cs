@@ -1,5 +1,5 @@
-﻿using ConsoleApp3;
-using ConsoleApp3.Behaviors.FlyBehaviors;
+﻿using StrategyPattern;
+using StrategyPattern.Behaviors.FlyBehaviors;
 
 /**
 The Strategy Pattern defines a family of algorithms, encapsulates each one,
