@@ -1,6 +1,8 @@
-﻿namespace RepositoryPattern
+﻿using RepositoryPattern.Model;
+
+namespace RepositoryPattern
 {
-    internal class PersonRepository : IRepository<Person>, IPeopleRepository
+    public class PersonRepository : IRepository<Person>, IPeopleRepository
     {
         private readonly List<Person> _people;
 
@@ -9,28 +11,32 @@
             _people = [];
         }
 
-        public void Add(Person person) => _people.Add(person);
+        public void Add(Person person)
+        {
+            _people.Add(new Person()
+            {
+                Name = person.Name,
+                Age = person.Age,
+                Id = _people.Count() > 0 ? _people.Last().Id + 1 : 1,
+            });
+        }
 
         public Person? GetById(int id) => _people.FirstOrDefault(p => p.Id == id);
 
-        IEnumerable<Person> IRepository<Person>.GetAll() => _people;
+        public IEnumerable<Person> GetAll() => _people;
 
-        public bool Find(Person obj) => _people.Contains(obj);
+        public void AddRange(IEnumerable<Person> entities) => entities.ToList().ForEach(person => Add(person));
 
-        public void AddRange(IEnumerable<Person> entities)
-        {
-            _people.AddRange(entities);
-        }
-        void IRepository<Person>.Remove(Person obj) => _people.Remove(obj);
+        public void Remove(Person obj) => _people.Remove(obj);
 
         public Person GetYoungestPerson()
         {
-            return _people.OrderByDescending(person => person.Age).First();
+            return _people.OrderBy(person => person.Age).First();
         }
 
         public IEnumerable<Person> GetTopYoungest(int limit)
         {
-            return _people.OrderByDescending(person => person.Age).Take(limit);
+            return _people.OrderBy(person => person.Age).Take(limit);
         }
     }
 }

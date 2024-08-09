@@ -1,4 +1,6 @@
-﻿namespace RepositoryPattern
+﻿using RepositoryPattern.Model;
+
+namespace RepositoryPattern
 {
     internal interface IPeopleRepository : IRepository<Person>
     {

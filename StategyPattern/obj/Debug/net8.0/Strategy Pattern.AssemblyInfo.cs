@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Strategy Pattern")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef304c6a6a82f6950f1aa27a957157803bc74698")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdae108d6598398377e8b386a235b450a9776ab4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Strategy Pattern")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Strategy Pattern")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
