@@ -1,42 +1,56 @@
 ﻿using RepositoryPattern.Model;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace RepositoryPattern
 {
     public class PersonRepository : IRepository<Person>, IPeopleRepository
     {
-        private readonly List<Person> _people;
+        private readonly ORM dbContext;
 
         public PersonRepository()
         {
-            _people = [];
+            dbContext = new ORM();
         }
 
         public void Add(Person person)
         {
-            _people.Add(new Person()
+            dbContext.People.Add(new Person()
             {
                 Name = person.Name,
                 Age = person.Age,
-                Id = _people.Count() > 0 ? _people.Last().Id + 1 : 1,
+                Id = dbContext.People.Count > 0 ? dbContext.People.Last().Id + 1 : 1,
             });
         }
 
-        public Person? GetById(int id) => _people.FirstOrDefault(p => p.Id == id);
+        public Person? GetById(int id) => dbContext.People.FirstOrDefault(p => p.Id == id);
 
-        public IEnumerable<Person> GetAll() => _people;
+        public IEnumerable<Person> GetAll() => dbContext.People;
 
         public void AddRange(IEnumerable<Person> entities) => entities.ToList().ForEach(person => Add(person));
 
-        public void Remove(Person obj) => _people.Remove(obj);
+        public void Remove(Person obj) => dbContext.People.Remove(obj);
 
-        public Person GetYoungestPerson()
+        public Person? GetYoungestPerson()
         {
-            return _people.OrderBy(person => person.Age).First();
+            var peopleQuery = dbContext.People.AsQueryable();
+
+            if(peopleQuery == null)
+            {
+                return null;
+            }
+
+            return peopleQuery.MinBy(person => person.Age);
         }
 
         public IEnumerable<Person> GetTopYoungest(int limit)
         {
-            return _people.OrderBy(person => person.Age).Take(limit);
+            return dbContext.People.OrderBy(person => person.Age).Take(limit);
+        }
+
+        IEnumerable<Person> IRepository<Person>.GetAll()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

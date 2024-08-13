@@ -1,4 +1,6 @@
-﻿namespace RepositoryPattern
+﻿using System.Collections.Generic;
+
+namespace RepositoryPattern
 {
     internal interface IRepository<T> where T : class
     {
