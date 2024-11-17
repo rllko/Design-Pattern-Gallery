@@ -8,8 +8,4 @@
     <RootNamespace>StrategyPattern</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\FactoryPattern\Factory Pattern.csproj" />
-  </ItemGroup>
-
 </Project>

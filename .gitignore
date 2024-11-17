@@ -5,3 +5,4 @@
 /.vs
 **/C#/obj/Debug
 **/C#/obj/
+**/C#/bin/
