@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer Pattern", "ObserverPattern\Observer Pattern.csproj", "{42BE664D-057A-4C16-899B-B1627847D280}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer Pattern", "Observer Pattern\C#\Observer Pattern.csproj", "{42BE664D-057A-4C16-899B-B1627847D280}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator Pattern", "DecoratorPattern\Decorator Pattern.csproj", "{8AFB4304-D8E6-49E7-B231-CC344B4F2825}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator Pattern", "Decorator Pattern\C#\Decorator Pattern.csproj", "{8AFB4304-D8E6-49E7-B231-CC344B4F2825}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory Pattern", "FactoryPattern\Factory Pattern.csproj", "{42C11D40-89ED-4ECC-BAE7-5798DA91CEDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory Pattern", "Factory Pattern\C#\Factory Pattern.csproj", "{42C11D40-89ED-4ECC-BAE7-5798DA91CEDC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy Pattern", "StategyPattern\Strategy Pattern.csproj", "{B6C256B0-DB0D-4AAF-A121-4DF076B7FF8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy Pattern", "Strategy Pattern\C#\Strategy Pattern.csproj", "{B6C256B0-DB0D-4AAF-A121-4DF076B7FF8C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract Factory Pattern", "AbstractFactory\Abstract Factory Pattern.csproj", "{6C9B2500-90AC-4392-BD3F-AB76FAA4E79A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract Factory Pattern", "Abstract Factory\C#\Abstract Factory Pattern.csproj", "{6C9B2500-90AC-4392-BD3F-AB76FAA4E79A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dependency Injection", "Dependency Injection\Dependency Injection.csproj", "{04BB0BA2-2706-4788-AD21-5AFF0C9CD1D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dependency Injection", "Dependency Injection\C#\Dependency Injection.csproj", "{04BB0BA2-2706-4788-AD21-5AFF0C9CD1D0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{CCFEAD40-1C70-453F-8B62-16A7A992BABC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton Pattern\C#\Singleton.csproj", "{CCFEAD40-1C70-453F-8B62-16A7A992BABC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern", "RepositoryPattern\RepositoryPattern.csproj", "{743A3BB1-F0CA-48BE-9D10-3DBE0FB076B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern", "Repository Pattern\C#\RepositoryPattern.csproj", "{743A3BB1-F0CA-48BE-9D10-3DBE0FB076B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,7 @@
+
+/C\#/bin/
+/build
+/debug
+/.vs
+**/C#/obj/Debug
+**/C#/obj/
