@@ -1,9 +1,6 @@
 package main
 
 import (
-	"os"
-	"os/exec"
-
 	"github.com/rllko/Strategy-Pattern/ducks"
 )
 
@@ -18,8 +15,4 @@ func main() {
 	duck.Display()
 	duck.Fly()
 	ducks.NewMallardDuck()
-
-	c := exec.Command("clear")
-	c.Stdout = os.Stdout
-	c.Run()
 }
